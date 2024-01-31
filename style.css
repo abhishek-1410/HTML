@@ -1,0 +1,57 @@
+
+#uber{
+    height: 45px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: opacity .15s;
+}
+
+#uber img{
+    width: 15px;
+}
+
+#uber:hover{
+    opacity: .8;
+}
+
+#uber:active{
+    opacity: .4;
+}
+
+#amazon{
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    cursor: pointer;
+    transition: background-color .15s, color .15s;
+}
+
+#amazon:hover{
+    background-color: rgba(210, 163, 22, 1);
+    color: white;
+}
+
+#sign-up{
+    margin-left: 10px;
+    background-color: rgb(46, 164, 79);
+    border: none;
+    height: 45px;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow .10s;
+}
+
+#sign-up:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0,.4);
+}

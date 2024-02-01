@@ -1,17 +1,12 @@
 
 #uber{
-    height: 45px;
-    width: 140px;
+    padding: 16px 32px 16px 32px;
     background-color: black;
     color: white;
     font-size: 16px;
     cursor: pointer;
     border: none;
     transition: opacity .15s;
-}
-
-#uber img{
-    width: 15px;
 }
 
 #uber:hover{
@@ -24,9 +19,9 @@
 
 #amazon{
     margin-left: 10px;
-    width: 200px;
-    height: 40px;
+    padding: 16px 32px 16px 32px;
     border-radius: 30px;
+    font-size: 16px;
     background-color: rgb(255, 216, 20);
     border: none;
     cursor: pointer;
@@ -42,8 +37,7 @@
     margin-left: 10px;
     background-color: rgb(46, 164, 79);
     border: none;
-    height: 45px;
-    width: 120px;
+    padding: 16px 32px 16px 32px;
     font-weight: bold;
     color: white;
     font-size: 16px;
@@ -54,4 +48,55 @@
 
 #sign-up:hover{
     box-shadow: 2px 2px 8px rgba(0, 0, 0,.4);
+}
+
+#one{
+    padding: 15px 50px;
+    margin-right: 25px;
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    cursor: pointer;
+    transition: padding .2s;
+}
+
+#one:hover{
+    padding: 25px 75px;
+}
+
+#two{
+    padding: 15px 50px;
+    margin-right: 25px;
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    cursor: pointer;
+    box-shadow: 3px 3px 12px rgba(0,0,0,.6);
+}
+
+#two:active{
+    box-shadow: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#shop{
+    margin: 0;
+    padding: 20px 40px;
+    background-color: rgb(216, 28, 28);
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#shop span:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+
 }
